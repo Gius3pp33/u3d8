@@ -1,0 +1,60 @@
+
+  
+  .edit-profile-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .container {
+    max-width: 600px;
+    
+  }
+  
+  .profile-image {
+    position: relative;
+  }
+  
+  .overlay-icon {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    border: solid 1px white;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: black;
+    box-shadow: 1px 1px 1px black;
+  }
+  
+  input[type="checkbox"] {
+    accent-color: grey;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .form-check-input:checked {
+    background-color: transparent !important;
+    border: 0;
+    border-radius: unset;
+    border: solid 2px grey;
+  }
+  
+  .form-check-input:focus,
+  .label::after,
+  label.form-check-label:focus,
+  .form-check-input::after,
+  .form-check-input:not(:disabled):not(.disabled):active:focus {
+    border-radius: unset;
+    box-shadow: 0 0 0 0.1rem transparent !important;
+    border: 2px solid grey;
+    background-color: transparent;
+  }
+  
+  .btn:hover {
+    background-color: white;
+    color: grey;
+  }
+  

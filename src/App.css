@@ -1,0 +1,16 @@
+.card:hover {
+ 
+  cursor: pointer;
+}
+
+
+.section-title {
+  margin-right: 25px;
+}
+h2  {
+  transform: translate(-14px, 0px);
+}
+.btn:hover {
+  background-color: white;
+  color: grey;
+}
